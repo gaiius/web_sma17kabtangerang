@@ -1,0 +1,99 @@
+body
+{
+	font-family: verdana;
+	background-attachment:fixed;
+	background-image:linear-gradient(to bottom, #12abc3, #2154c8);
+}
+
+#container
+{
+	width:952px;
+	margin:auto;
+}
+
+#header
+{
+	background-image: url("../images/header.jpg");
+	width:950px;
+	height:174px;
+}
+
+#block
+{
+	padding:10px;
+	text-align: right;
+	font-size: 12px;
+}
+
+#menu
+{
+	padding:10px;
+	background-image: linear-gradient(to bottom, #eeeeee, #dedede);
+}
+
+#menu a
+{
+	text-decoration: none;
+	margin-right:10px; 
+	margin-left:10px;
+	padding:5px;
+	border-radius:5px;
+}
+
+/*#menu a:hover
+{
+	text-decoration: none;
+	transition: 1s;
+	background-color:white;
+}*/
+
+#pages
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background: white;
+	border: 1px solid white;
+    border-radius: .4em;
+}
+
+#content
+{
+	padding:50px;
+}
+
+#footer
+{
+	padding:10px;
+	background-image: linear-gradient(to bottom, #eeeeee, #dedede);
+	text-align:center;
+}
+
+#table-sism
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	width:100%;
+	border-collapse:collapse;
+}
+
+#table-sism td, #table-sism th 
+{
+	font-size:1.2em;
+	border:1px solid #2154c8;
+	padding:3px 7px 2px 7px;
+}
+
+#table-sism th 
+{
+	font-size:1.4em;
+	text-align:left;
+	padding-top:5px;
+	padding-bottom:4px;
+	background-color:#12abc3;
+	color:#fff;
+}
+
+#table-sism tr.alt td 
+{
+	color:#000;
+	background-color:#EAF2D3;
+}

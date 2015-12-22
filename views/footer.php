@@ -1,0 +1,1 @@
+<div id="footer">Copyright @<?php echo date("Y"); ?> SMAN 17 Kab. Tangerang</div>
